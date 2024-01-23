@@ -1,0 +1,3 @@
+
+enum asm + 22 myName
+#define const
