@@ -31,7 +31,9 @@ void solve(string s) {
             cout << "Float variable = " << s << endl;
         else
             cout << "Invalid Input = " << s << endl;
-    } else {
+    }
+
+    else {
         int cnt = 0;
         for (int i = 0; i < s.size(); i++) {
             if (s[i] == '.') break;
@@ -51,6 +53,7 @@ void solve(string s) {
 }
 
 int main() {
+     freopen("5.txt","r",stdin);
     string s;
     while (cin >> s) {
         solve(s);

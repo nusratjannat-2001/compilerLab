@@ -10,6 +10,7 @@ void solve(int ct) {
     vector<string> inp{istream_iterator<string>{iss}, istream_iterator<string>{}};
     // dbg(inp);
     int n = inp.size();
+    //cout<<n;
     if(n > 3 || n < 2) {
         cout << "Invalid Sentence" << endl;
         return;

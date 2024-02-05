@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     string s="Munmun is the student of Computer Science & Engineering";
-     int vowel=0,consonant=0;
+    int vowel=0,consonant=0;
     for(int i=0;i<s.length();i++)
     {
         if(isalpha(s[i]))        //function only for alphabetic

@@ -38,7 +38,7 @@ void solve(string s) {
             else
                 valid_ch = 0;
 
-            if (valid_ch) {
+            if(valid_ch) {
                 for (int i = 3; i < s.size(); i++) {
                     if ((s[i] >= 'a' && s[i] <= 'z') ||
                         (s[i] >= 'A' && s[i] <= 'Z') ||
@@ -61,6 +61,7 @@ void solve(string s) {
 }
 
 int main() {
+    freopen("6.txt","r",stdin);
     string s;
     while (cin >> s) {
         solve(s);

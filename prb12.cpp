@@ -4,8 +4,7 @@ using namespace std;
 int main()
 {
 	string ans = "";
-
-	string input;
+    string input;
 	// Opening the file
 	ifstream file;
 	file.open("12.txt");

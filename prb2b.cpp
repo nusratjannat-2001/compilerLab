@@ -11,8 +11,8 @@ int main()
               if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||     // condition for vowel
                s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O'||s[i]=='U')
                 vowel.push_back(s[i]);
-            else
-              consonant.push_back(s[i]);
+              else
+                consonant.push_back(s[i]);
         }
     }
 

@@ -31,6 +31,7 @@ void solve(string s) {
     }
 }
 int main() {
+     freopen("4.txt","r",stdin);
     string s;
     while (cin >> s) {
         solve(s);
